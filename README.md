@@ -1,0 +1,2 @@
+# JAVASCRIPT_SOLVE_TASKS
+JavaScript files
