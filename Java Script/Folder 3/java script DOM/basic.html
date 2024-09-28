@@ -4,10 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>basic dom folder 3</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
     <h1>check my work please</h1>
+    
+    <!-- Form with input fields -->
+    <form id="registrationForm">
+        <!-- Username input -->
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username"><span class="error" id="usernameError"></span><br><br>
+
+        <!-- Password input -->
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password"><span class="error" id="passwordError"></span><br><br>
+
+        <!-- Confirm Password input -->
+        <label for="confirmPassword">Confirm Password: </label>
+        <input type="password" id="confirmPassword" name="confirmPassword"><span class="error" id="confirmPasswordError"></span><br><br>
+
+        <!-- Register Button -->
+        <button type="button" id="registerButton" disabled>Register</button><br><br>
+
+        <!-- Success message -->
+        <span id="successMessage" class="success"></span>
+    </form>
+    
+
     <script src="basic.js"></script>
     
 </body>
 </html>
+
+
+
+
+
+
+
+   
