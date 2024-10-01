@@ -33,3 +33,4 @@ for(i = 0; i < words.length; i++){
     document.getElementById('wordCount').textContent = 'Word Count: ' + wordCount;
 
     
+j
