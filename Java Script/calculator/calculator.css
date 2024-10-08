@@ -85,4 +85,20 @@
  
 }
 
-
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .calculator {
+        margin: 20% auto;
+    }
+    .calculator h1 {
+        font-size: 40px;
+    }
+    .inputbox {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .inputbox input, .inputbox button {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
