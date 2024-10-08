@@ -1,3 +1,4 @@
+
 const form = document.getElementById('itemForm'); 
 const input = document.getElementById('itemInput'); 
 const shoppingList = document.getElementById('shoppingList'); 
@@ -17,8 +18,11 @@ form.addEventListener('submit', function(event) {
         // إنشاء زر حذف لكل عنصر
         const deleteBtn = document.createElement('button'); // إنشاء زر جديد
         deleteBtn.textContent = 'Delete'; // تعيين نص الزر إلى "حذف"
-        deleteBtn.addEventListener('click', function() { // إضافة حدث للنقر على زر الحذف
-            shoppingList.removeChild(li); // إزالة عنصر القائمة من القائمة عند النقر
+        deleteBtn.addEventListener('click', () => { // إضافة حدث للنقر على زر الحذف
+            shoppingList.removeChild(li)
+                
+                
+            // إزالة عنصر القائمة من القائمة عند النقر
         });
 
         // إضافة زر الحذف إلى عنصر القائمة
